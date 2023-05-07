@@ -1,0 +1,4 @@
+"0","library(ggcorrplot)"
+"0","numeric_cols <- sapply(blue_data, is.numeric)"
+"0","corr = corr[blue_winning_factors,blue_winning_factors]"
+"0","ggcorrplot(corr = corr)"

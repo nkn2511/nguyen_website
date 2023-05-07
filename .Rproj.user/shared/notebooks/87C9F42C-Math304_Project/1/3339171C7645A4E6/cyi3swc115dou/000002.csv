@@ -1,0 +1,7 @@
+"0","generated_norm  = rnorm(100, mean = mle_mean, sd = mle_sd)"
+"0","generated_gamma  = rgamma(100,shape = mle_shape_estimates, rate = mle_rate_estimates)"
+"0",""
+"0","new_generated_data <- data.frame(""Normal"" = generated_norm, ""Gamma"" = generated_gamma)"
+"0",""
+"0","# Save dataframe as CSV file"
+"0","# write.csv(new_generated_data, ""new_generated_data.csv"", row.names = FALSE)"

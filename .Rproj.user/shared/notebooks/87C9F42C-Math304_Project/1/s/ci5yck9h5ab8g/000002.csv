@@ -1,0 +1,2 @@
+"0","rm(list = ls())"
+"0","water_potability = read.csv(""water_potability.csv"")"

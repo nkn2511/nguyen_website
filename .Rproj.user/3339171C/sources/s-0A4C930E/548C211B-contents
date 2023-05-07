@@ -1,0 +1,14 @@
+name: "nguyen_website"
+title: "Math 230 Website"
+description: |
+  Nguyen Nguyen
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Past Course Visualization"
+      href: past.html
+    - text: "LoL Story Telling"
+      href: lol.html
+output: distill::distill_article

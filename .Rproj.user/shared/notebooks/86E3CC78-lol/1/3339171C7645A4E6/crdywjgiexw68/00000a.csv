@@ -1,0 +1,8 @@
+"0","numeric_cols <- sapply(red_data, is.numeric)"
+"0","cor_red = red_data[, numeric_cols]"
+"0","corr <- round(cor(cor_red), 2)"
+"0","red_winning_factors = names(sort(corr[c(""redWins""),], decreasing=T)[1:10])"
+"0","numeric_cols <- sapply(red_data, is.numeric)"
+"0","corr = corr[red_winning_factors,red_winning_factors]"
+"0","ggcorrplot(corr = corr)"
+"0",""

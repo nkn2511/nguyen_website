@@ -1,0 +1,53 @@
+"0","gamma.lik <- function(theta, x) {"
+"0","  alpha = theta[1]"
+"0","  beta = theta[2]"
+"0","  n <- length(x)"
+"0","  logl <- -n * alpha * log(beta) + n * log(1/gamma(alpha)) + (alpha - 1) * sum(log(x)) - 1/beta * sum(x)"
+"0","  return(-logl)"
+"0","}"
+"0","x_s <- water_potability$Organic_carbon"
+"0","out <- nlm(gamma.lik, c(1,1), x = x_s)"
+"2","Warning in nlm(gamma.lik, c(1, 1), x = x_s) :"
+"2","
+ "
+"2"," NA/Inf replaced by maximum positive value
+"
+"2","Warning in log(beta) :"
+"2"," NaNs produced
+"
+"2","Warning in nlm(gamma.lik, c(1, 1), x = x_s) :"
+"2","
+ "
+"2"," NA/Inf replaced by maximum positive value
+"
+"2","Warning in log(beta) :"
+"2"," NaNs produced
+"
+"2","Warning in nlm(gamma.lik, c(1, 1), x = x_s) :"
+"2","
+ "
+"2"," NA/Inf replaced by maximum positive value
+"
+"2","Warning in log(beta) :"
+"2"," NaNs produced
+"
+"2","Warning in nlm(gamma.lik, c(1, 1), x = x_s) :"
+"2","
+ "
+"2"," NA/Inf replaced by maximum positive value
+"
+"2","Warning in log(beta) :"
+"2"," NaNs produced
+"
+"2","Warning in nlm(gamma.lik, c(1, 1), x = x_s) :"
+"2","
+ "
+"2"," NA/Inf replaced by maximum positive value
+"
+"0","gamma.mle <- out$estimate"
+"0","gamma.mle"
+"1","[1]"
+"1"," 17.185081"
+"1","  0.831242"
+"1","
+"

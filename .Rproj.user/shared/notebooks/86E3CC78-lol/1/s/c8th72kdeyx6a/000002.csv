@@ -1,0 +1,4 @@
+"0","corr = corr[blue_winning_factors,blue_winning_factors]"
+"0","ggcorrplot(corr = corr)"
+"2","Error in ggcorrplot(corr = corr) : could not find function ""ggcorrplot""
+"

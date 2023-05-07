@@ -1,0 +1,1 @@
+"0","hist(data$redTowersDestroyed[data$blueWins==1])"

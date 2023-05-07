@@ -1,0 +1,7 @@
+"0","keep_cols <- grep('red', names(data), invert = TRUE)"
+"0","blue_data = data[, keep_cols]#[,keep_cols]"
+"0","blue_data = blue_data[, -c(1)]"
+"0","keep_cols <- grep('blue', names(data), invert = TRUE)"
+"0","red_data = data[, keep_cols]#[,keep_cols]"
+"0","red_data = red_data[, -c(1)]"
+"0","red_data$redWins = ifelse(blue_data$blueWins==0,1,0)"
