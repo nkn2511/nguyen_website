@@ -1,5 +1,6 @@
 name: "nguyen_website"
 title: "Math 230 Website"
+theme: theme.css
 description: |
   Nguyen Nguyen
 output_dir: "docs"

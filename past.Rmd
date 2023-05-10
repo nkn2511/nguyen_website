@@ -31,14 +31,14 @@ knitr::opts_chunk$set(echo = FALSE)
 
 **Description:** The alluvial plot illustrates the relation between the length and width of the petal of each iris species. Each species is assigned a color (setosa: green, versicolor: orange, virginica: blue). The left column shows the petal length while the right column shows the petal width. From the flows, we see that the setosa has the longest and smallest petal, the virginica has the shortest petal that is second-to-largest in width, and the versicolor has the second-to-longest petal that is the largest.
 
-![Possible Caption](corrplot.png)
-**Title:** Correlation Plot for Four Quantitative Variables of the Hate Crime Dataset
+![Possible Caption](density.png)
+**Title:** Density Plot for Cholesterol vs Fat Consumption
 
-**The dataset:** The Hate Crime Dataset from the article _"Higher Rates Of Hate Crimes Are Tied To Income Inequality"_ with 51 rows representing US states and DC and 13 variables
+**The dataset:** The Nutrition Study Dataset from a cross-sectional study to investigate the relationship between personal characteristics and dietary factors, and plasma concentrations of retinol, beta-carotene and other carotenoids with 315 observations on 17 variables.
 
-**Variables:** Shared White Poverty, Shared Non Citizen, Gini Index, Shared Non White
-
-**Description:** The correlation plot illustrates the correlation between each variable. Each variable is at the ith row and the (n-i)th column. The correlation is calculated for each pair of variables at every row and column. The color scale goes from red (highest correlation) to blue (lowest correlation). The significance level is set to 0.01, and in-significant correlations are marked with a cross.
+**Variables:** Fat, Cholesterol
+2
+**Description:** The density plot shows the relationship between Fat (g/day) and Cholesterol (g/day). Particularly, it illustrates the density of the points coming bivariate distribution of the two variables. Each colored line represents the percentage of data lie within the region. To the right, there is a legend for us to keep track of the density of each region.
 
 
 ## Other Visualizations:

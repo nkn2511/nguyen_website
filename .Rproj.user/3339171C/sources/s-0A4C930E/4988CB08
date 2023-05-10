@@ -3,7 +3,7 @@
     "path": "~/Documents/math230/nguyen_website/lol.Rmd",
     "project_path": "lol.Rmd",
     "type": "r_markdown",
-    "hash": "1566314529",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1682100358736.0,
@@ -13,16 +13,16 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "121,108",
-        "scrollLine": "117",
-        "last_setup_crc32": ""
+        "cursorPosition": "128,429",
+        "scrollLine": "127",
+        "last_setup_crc32": "0A4C930Ec4e2d899"
     },
     "folds": "",
-    "lastKnownWriteTime": 1683486820,
+    "lastKnownWriteTime": 1683690040,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1683486820261,
+    "last_content_update": 1683690040556,
     "read_only": false,
     "read_only_alternatives": []
 }
