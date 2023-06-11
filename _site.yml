@@ -8,8 +8,10 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "Past Course Visualization"
-      href: past.html
-    - text: "LoL Story Telling"
-      href: lol.html
+#    - text: "Past Course Visualization"
+#      href: past.html
+#    - text: "LoL Story Telling"
+#      href: lol.html
+    - text: "Long Distance"
+      href: ld.html
 output: distill::distill_article

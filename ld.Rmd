@@ -1,0 +1,20 @@
+---
+title: "From Austin to Lewisburg"
+description:
+  Nhung hinh anh cuc ki hap dan trong nhieu tu the cua con hang mem Linh o Austin va manh thu Nguyen o Lewisburg
+# output:
+#   distill::distill_article:
+#     self_contained: false
+---
+## First Week
+![](linh/yeuxa.png)
+**Caption:** 
+
+Nguyen: "Di xa nho chup anh gi vui vui ve cho anh xem voi nhe?"
+
+Linh: "OK anh dep trai"
+
+Nguyen: "Lam mat vui vui vao!"
+
+Linh: "OK luon"
+

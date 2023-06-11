@@ -1,11 +1,11 @@
 ---
-title: "Khai-Nguyen Nguyen"
-description:
-  Personal Distill website of Khai-Nguyen Nguyen for Math230. The description is extracted from my [personal website](https://nkn002.github.io/).
+title: "Linh & Nguyen"
+description: Nhat ky chim chuot
 output:
   distill::distill_article:
     self_contained: false
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = F)
@@ -18,20 +18,20 @@ knitr::opts_chunk$set(echo = F)
 
 ```
 
-```{r, out.width = "400px"}
-knitr::include_graphics("my_face.jpeg")
+```{r, out.width = "800px"}
+knitr::include_graphics("linh/IMG_1478.jpeg")
 ```
 
-About
-===
-I am a CS and Engineering student at Bucknell University at Lewisburg, Pennsylvania. I am particularly interested in methods of improving existing models' learning to reach human-level language understanding. To this end, I hope to do research on the **interpretability and explainability** and **representation learning** of NLP models.
+```{r}
+# Define the starting date
+start_date <- as.Date("2023-01-27")
 
-I am fortunate to be advised by Professor Alex Kelly (Carleton University) and Professor Thiago Serra (Bucknell University) in my previous research.
+# Calculate the difference in days
+num_days <- difftime(Sys.Date(), start_date, units = "days")
 
-Join the LoL Story Telling Exhibition
-===
-
-![](poster.png)
+# Print the result
+(paste(as.character(num_days), "Days Together"))
+```
 
 
 
