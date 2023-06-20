@@ -18,3 +18,12 @@ Nguyen: "Lam mat vui vui vao!"
 
 Linh: "OK luon"
 
+## Second Week
+![](linh/yeuxa2.png)
+**Caption:** 
+
+Nguyen: "Di lam the nao?"
+
+Linh: "Met qua met qua lai con doi vi quen mang theo do an nua"
+
+Nguyen: "Ok anh chup cho ngam do doi nhe teehee"
