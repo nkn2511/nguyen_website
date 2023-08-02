@@ -1,8 +1,8 @@
 name: "nguyen_website"
-title: "Math 230 Website"
+title: "Love Diary"
 theme: theme.css
 description: |
-  Nguyen Nguyen
+  Linh and Nguyen
 output_dir: "docs"
 navbar:
   right:
