@@ -1,0 +1,14 @@
+---
+title: "Austin Trip: From Lewisburg to Poverty"
+description:
+  Nhung hinh anh cuc ki hap dan trong nhieu tu the cua con hang mem Linh va manh thu Nguyen o Austin
+# output:
+#   distill::distill_article:
+#     self_contained: false
+---
+
+![](linh/austin.png)
+
+**Caption:** 
+
+Mot chuyen di tuyet voi voi mot nguoi tuyet voi. Austin is both hot and sunny. Em cx vua hot va tuyet voi nhu ngay nang dep vay teehee <3.
